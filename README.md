@@ -27,7 +27,7 @@ cache.create_sub('users', {
     'status': 'BOOLEAN'
 }, passphrase='my-passphrase')
 ```
-Notes:
+**IMPORTANT:**
 * The first element is always be a key for Redis cache, and must be a TEXT or an INTEGER.
 * Available data types: TEXT, INTEGER, REAL, BOOLEAN
 * Available data modifier: NOT NULL
