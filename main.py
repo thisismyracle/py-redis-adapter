@@ -47,7 +47,7 @@ if __name__ == '__main__':
     }))
     print(cache.sub('users').get_all())
 
-    # SET MANY statement
+    # SET-MANY statement
     print('\nLets set more users in bulk!')
     print(cache.sub('users').set_many({
         800100: {
