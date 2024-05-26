@@ -1,0 +1,7 @@
+{
+    "users": {
+        "uid": "INTEGER",
+        "name": "TEXT",
+        "status": "BOOLEAN"
+    }
+}
